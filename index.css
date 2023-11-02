@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#heading {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    /* Horizontal centering */
+    align-items: center;
+    /* Vertical centering */
+    height: 100vh;
+    /* Adjust the height as needed */
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.parent_div {
+    margin: 5px;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    align-items: flex-end;
+    border: 10px solid black;
+    justify-content: center;
+}
+
+
+.inner_div {
+    margin: 15px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    flex: 1;
+}
+
+
+.btn {
+
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+    padding: 10px 20px;
+    /*  Adjust the padding as needed (top and bottom, left and right) */
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}

@@ -13,17 +13,20 @@
     /* Vertical centering */
     height: 100vh;
     /* Adjust the height as needed */
-
 }
 
 h1 {
     text-align: center;
-  
+    margin-bottom: 20px;
+    /* Add margin between h1 and parent div */
 }
 
 .parent_div {
     margin: 5px;
-    width: 100vw;
+    max-width: 100vw;
+    /* Use max-width to limit width to the viewport */
+    width: 100%;
+    /* Add 100% width */
     height: 800px;
     display: flex;
     /* flex-wrap: nowrap; */
@@ -31,7 +34,6 @@ h1 {
     border: 10px solid black;
     justify-content: center;
 }
-
 
 .inner_div {
     margin: 15px;
@@ -41,9 +43,7 @@ h1 {
     flex: 1;
 }
 
-
 .btn {
-
     width: 200px;
     /* Adjust the width as needed */
     height: 50px;
